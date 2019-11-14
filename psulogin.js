@@ -487,7 +487,8 @@ async function getReceiverWalletFromId(id) {
         // console.log("getReceiverWalletFromId = >",id)
 }
 // <!--===============================================================================================-->
-app.listen(5000, () => console.log('Server is ready!'))
+const port = process.env.PORT || 5000;
+app.listen(port, () => console.log('Server is ready!'))
 
 
 // 791786F6D865B4FAFAC0E92A5961D0526AF0072EFA757D5E46E59A69EF63FF70
