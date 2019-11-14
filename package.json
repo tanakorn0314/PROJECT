@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node psulogin.js"
+    "dev": "node psulogin.js",
+    "start": "node psulogin.js"
   },
   "keywords": [],
   "author": "",
